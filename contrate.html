@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Contrate-nos - Wild Bears</title>
+		<link rel="stylesheet" href="C:\Users\User\Desktop\Programação\HTML CSS\reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+		<script src="https://kit.fontawesome.com/9174a4b77e.js" crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+		<header>
+			<div class="menu">
+				<img class="logo-menu" src="imagens/logo-wild.png" alt="logo wild-bears">
+
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="agenda.html">Agenda</a></li>
+						<li><a href="contrate.html">Contrate-nos</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<section class="contrate">
+				
+				<div class="formulario">
+					<img src="imagens/img-show.jpg" class="img-show" alt="Banda Wild Bears tocando em show">
+					<form>
+						<h2>Contrate-nos!</h2>
+						<label for="nome" class="required">Seu nome ou o nome da sua produtora: </label>
+						<input type="text" id="nome" class="input-padrao" required>
+
+						<label for="email" class="required">E-mail para contato:</label>
+						<input type="email" id="email" class="input-padrao" required>
+
+						<label for="telefone" class="required">Telefone para contato:</label>
+						<input type="tel" id="telefone" class="input-padrao" required>
+
+						<label for="cidade" class="required">Em qual cidade/estado será o show?:</label>
+						<input type="text" id="cidade" class="input-padrao" required>
+
+						<label for="nomeevento" class="required">Qual é o nome do seu evento?:</label>
+						<input type="text" id="nomeevento" class="input-padrao" required>
+
+						<label for="data" class="required">Qual é a data do seu evento?:</label>
+						<input type="date" id="data" class="input-padrao" required>
+
+						<label for="mensagem" class="required">Conte-nos um pouco mais sobre o seu evento:</label>
+						<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+						<input type="submit" value="Enviar" class="enviar"> 
+					</form>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<section class="redes-sociais">
+				<h2>Sigam nas redes sociais</h2>
+				<div class="grid icons">
+					<a target="_blank" href="https://pt-br.facebook.com/">
+						<i class="fa-brands fa-square-facebook"></i>
+					</a>
+					
+					<a target="_blank" href="https://www.instagram.com/wildbearsfolk/">
+						<i class="fab fa-instagram"></i>
+					</a>
+					
+					<a target="_blank" href="https://open.spotify.com/">
+						<i class="fa-brands fa-spotify"></i>
+					</a>
+				</div>
+				<img class="logo-rodape" src="imagens/logo-wild.png" alt="logo wild-bears">
+			</section>
+		</footer>
+	</body>
+</html>
